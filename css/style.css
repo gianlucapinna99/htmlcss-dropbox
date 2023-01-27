@@ -8,6 +8,16 @@ RESET
     padding: 0;
     box-sizing: border-box;
 }
+
+/* 
+----------
+DEBUG
+---------- */
+
+.debug .container-header{
+    background-color: aqua;
+}
+
 /* 
 ----------
 TYPO
@@ -19,7 +29,10 @@ TYPO
 ----------
 COMMON
 ---------- */
-
+header{
+    width: 80vw;
+    margin: 0 auto;
+}
 
 
 /* 
@@ -27,7 +40,15 @@ COMMON
 HEADER
 ---------- */
 
+.header-box ul{
+    list-style: none;
+    display: flex;
+}
 
+.container-header{
+    display: flex;
+    justify-content: space-between;
+}
 
 /* 
 ----------
