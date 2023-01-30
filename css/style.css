@@ -310,6 +310,68 @@ MAIN
 }
 
 /* SEZIONE QUADRATI */
+
+.quadrati{
+    width: 100%;
+    margin: 150px auto;
+}
+
+.designit{
+    background-color: #a2d39b;
+}
+
+.arizona{
+    background-color: #61082b;
+}
+
+.florida{
+    background-color: #0093ce;
+}
+
+.topps{
+    background-color: #ff1c1c;
+}
+
+.world{
+    background-color: #d5001f;
+}
+
+.hearst{
+    background-color: #b4d0e7;
+}
+
+.lonely{
+    background-color: #0d2481;
+}
+
+.clear{
+    background-color: #ffd830;
+}
+
+.clear, .lonely, .designit, .arizona, .florida, .topps, .world, .hearst{
+    width: 50%;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sezioni-main{
+    display: flex;
+}
+
+.left-column, .right-column, .center-column{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100%/3);
+}
+
+section div div div img{
+    width: 40%;
+    justify-content: center;
+}
+
+
 /* 
 ----------
 FOOTER
