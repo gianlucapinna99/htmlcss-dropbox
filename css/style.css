@@ -32,7 +32,7 @@ h1{
     font-weight: 900;
 }
 
-h2{
+h4{
     font-size: 17px;
     font-weight: 100;
 }
@@ -50,9 +50,18 @@ header{
 .button{
     color: white;
     background-color: #0061ff;
-    border: none;
-    padding: 10px 15px;
     border: 1px solid transparent;
+}
+
+.button-two{
+    color: black;
+    background-color: white;
+    border: solid black 1.7px;
+    margin: 30px 0;
+}
+
+.button-two, .button{
+    padding: 10px 15px;
 }
 
 .button:hover{
@@ -90,6 +99,7 @@ HEADER
     background-color: white;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .header-box{
@@ -143,8 +153,163 @@ HEADER
 ----------
 MAIN
 ---------- */
+.select-plans{
+   margin: 0 auto; 
+   width: 50%;
+}
+
+.business-title{
+    margin-top: 140px;
+}
+
+.business-title{
+    margin-bottom: 55px;
+}
+
+.plan-choice{
+    margin-right: 45px;
+}
+
+.main-colums{
+    position: relative;
+    padding-top: 80px;
+    display: flex;
+}
+
+.plans{
+    display: flex;
+    margin-top: 40px;
+}
+
+.plans div ul li{
+    list-style: none;
+}
+
+.plans >div{
+    margin-bottom: 30px;
+}
+
+.l-column, .r-column, .c-column{
+    width: calc(100%/3);
+    border: solid #d0d0d3 1px;
+    padding: 0 30px;
+}
+
+.c-column{
+    margin: 0 50px;
+}
+
+.plans div hr{
+    width: 30%;
+    color: #d0d0d3;
+    height: 1px;
+    margin: 40px 0;
+}
+
+.plans div ul li{
+    margin: 30px 0;
+}
+
+.minititle-plans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: solid #d0d0d3 1px;
+}
+
+.team{
+    width: 50%;
+    margin: 0 auto;
+}
+.team-minititle{
+    display: flex;
+    justify-content: center;
+    border: solid #d0d0d3 1px;
+    padding: 10px 0;
+}
+
+.team-content{
+    padding: 30px;
+    border-right: solid #d0d0d3 1px;
+    border-left: solid #d0d0d3 1px;
+    border-bottom: solid #d0d0d3 1px;
+}
 
 
+.enterprice-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.enterprice-text{
+    margin-top: 40px;
+}
+
+.left-content h3{
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+/* SEZIONE PARTNER */
+
+.partner{
+    display: flex;
+    width: 50%;
+    margin: 130px auto;
+    height: 510px;
+}
+
+.partner-img{
+    width: 100%;
+}
+
+.partner-rcolumn{
+    padding-top: 50px;
+    padding-left: 40px;
+    width: 50%;
+}
+
+.partner-rcolumn h4{
+    margin-top: 15px;
+}
+
+/* SEZIONE più operazioni */
+
+.operazioni{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.features-img{
+    width: 100%;
+}
+
+.features{
+    width: calc(100%/3 - 45px);
+}
+
+.colonne-operazioni{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+}
+.operazioni h2{
+    margin-bottom: 50px;
+}
+
+.features h4{
+    margin-top: 30px;
+}
+.title-main{
+    margin-top: 215px;
+    margin-bottom: 65px;
+}
+
+/* SEZIONE QUADRATI */
 /* 
 ----------
 FOOTER
