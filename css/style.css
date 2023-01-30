@@ -52,6 +52,13 @@ header{
     background-color: #0061ff;
     border: none;
     padding: 10px 15px;
+    border: 1px solid transparent;
+}
+
+.button:hover{
+    background-color: white;
+    color: #0061ff;
+    border: 1px solid #0061ff;
 }
 
 /* 
@@ -62,12 +69,19 @@ HEADER
 .header-box ul{
     list-style: none;
     display: flex;
+    height: 80px;
 }
 
 .header-box ul li{
-    margin: 0 20px; 
+    padding: 0 20px; 
     display: flex;
     align-items: center;
+    border: 1.5px solid transparent;
+}
+
+.header-box ul .link:hover{
+    border-bottom: solid #0061ff;
+    border-width: 1.5px;
 }
 
 .container-header{
@@ -76,7 +90,6 @@ HEADER
     background-color: white;
     position: fixed;
     width: 100%;
-    padding: 20px;
 }
 
 .header-box{
@@ -136,3 +149,7 @@ MAIN
 ----------
 FOOTER
 ---------- */
+
+
+
+/* FONT RICORDA DI AGGIUNGERE: Open Sans google fonts*/
