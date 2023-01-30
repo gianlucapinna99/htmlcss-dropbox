@@ -76,12 +76,12 @@ HEADER
     padding: 0 20px; 
     display: flex;
     align-items: center;
-    border: 1.5px solid transparent;
+    border: 2px solid transparent;
 }
 
 .header-box ul .link:hover{
     border-bottom: solid #0061ff;
-    border-width: 1.5px;
+    border-width: 2px;
 }
 
 .container-header{
