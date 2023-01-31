@@ -32,6 +32,9 @@ h1{
     font-weight: 900;
 }
 
+h2{
+    font-size: 35px;
+}
 h4{
     font-size: 17px;
     font-weight: 100;
@@ -192,9 +195,11 @@ MAIN
 .l-column, .r-column, .c-column{
     width: calc(100%/3);
     border: solid #d0d0d3 1px;
-    padding: 0 30px;
 }
 
+.content{
+    padding: 0 30px;
+}
 .c-column{
     margin: 0 50px;
 }
@@ -208,6 +213,8 @@ MAIN
 
 .plans div ul li{
     margin: 30px 0;
+    font-size: 15px;
+    display: flex;
 }
 
 .minititle-plans{
@@ -219,6 +226,21 @@ MAIN
     border-bottom: solid #d0d0d3 1px;
 }
 
+.plans div div h3{
+    margin: 20px 0 10px 0;
+}
+
+.infos{
+    min-height: 250px;
+}
+
+.payment-option{
+    color: #66666b;
+    margin-top: 10px;
+}
+.acquista-ora{
+    margin: 30px 0;
+}
 .team{
     width: 50%;
     margin: 0 auto;
@@ -237,6 +259,20 @@ MAIN
     border-bottom: solid #d0d0d3 1px;
 }
 
+.plans div strong{
+    font-size: 17px;
+}
+.fa-solid{
+    margin-right: 5px;
+}
+.fa-check{
+    color: #0061ff;
+    margin-right: 5px;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+/* ENTERPRISE BOX */
 
 .enterprice-box{
     display: flex;
@@ -276,6 +312,12 @@ MAIN
 
 .partner-rcolumn h4{
     margin-top: 15px;
+}
+
+.button-two:hover{
+    background-color: white;
+    color: #0061ff;
+    border: solid #0061ff 1.7px;
 }
 
 /* SEZIONE più operazioni */
@@ -432,6 +474,12 @@ section div div div img{
     display: flex;
     align-items: center;
     font-size: 14px;
+    border: solid #b4d0e7 1.7px;
+}
+
+.button-box:hover{
+    color: #0061ff;
+    border: solid #0061ff 1.7px;
 }
 
 /* 
@@ -460,7 +508,7 @@ FOOTER
 }
 
 .faq strong{
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .fa-angle-down{
