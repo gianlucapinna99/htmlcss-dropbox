@@ -315,7 +315,7 @@ MAIN
 
 .quadrati{
     width: 100%;
-    margin: 150px auto;
+    margin: 150px 0 auto;
 }
 
 .designit{
@@ -439,6 +439,29 @@ section div div div img{
 FOOTER
 ---------- */
 
+.domande-frequenti{
+    width: 50%;
+    margin: 0 auto;
+}
 
+.domande-frequenti h2{
+    margin: 130px 100px 50px 0;
+}
 
+.faq{
+    padding: 25px 0;
+    border-top: solid #999999 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq strong{
+    font-size: 15px;
+}
+
+.fa-angle-down{
+    font-size: 10px;
+    padding-right: 40px;
+}
 /* FONT RICORDA DI AGGIUNGERE: Open Sans google fonts*/
