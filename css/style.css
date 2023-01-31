@@ -439,9 +439,12 @@ section div div div img{
 FOOTER
 ---------- */
 
+
+/* DOMANDE FREQUENTI */
 .domande-frequenti{
     width: 50%;
     margin: 0 auto;
+    margin-bottom: 140px;
 }
 
 .domande-frequenti h2{
@@ -463,5 +466,59 @@ FOOTER
 .fa-angle-down{
     font-size: 10px;
     padding-right: 40px;
+}
+
+/* FOOTER MENU */
+
+.bottom-footer{
+    color: white;
+    background-color: black;
+    padding: 110px 110px 55px;
+}
+
+.menus{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 100px;
+    width: 80%;
+}
+
+.menu-title{
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
+.menus div ul{
+    list-style: none;
+}
+
+.menus div ul li{
+    margin: 20px 0;
+    font-size: 17px;
+}
+
+.bottom-footer hr{
+    width: 8%;
+    margin: 110px 0 50px 10%;
+    border: none;
+    height: 1px;
+    background-color: white;
+}
+
+.lingua{
+    margin-left: 10%;
+    color: #999999;
+}
+
+.fa-earth-americas {
+    margin-right: 10px;
+}
+
+.fa-sort-up{
+    margin-left: 10px;
+    position: relative;
+    top: 4px;
+    font-size: 10px;
 }
 /* FONT RICORDA DI AGGIUNGERE: Open Sans google fonts*/
