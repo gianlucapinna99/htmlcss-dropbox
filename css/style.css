@@ -137,6 +137,10 @@ HEADER
     width: 70%;
 }
 
+.link a{
+    color: black;
+    text-decoration: none;
+}
 .header-second-column img{
     width: 100%;
     position: relative;
@@ -434,6 +438,10 @@ section div div div img{
     bottom: 40px;
 }
 
+.sezioni-main div div img{
+    filter: invert(1);
+}
+
 .center-column hr{
     background-color: #d0d0d3;
     height: 1px;
@@ -441,6 +449,8 @@ section div div div img{
     width: 20%;
     margin: 50px 0;
 }
+
+
 
 /* LAST-BOX MAIN */
 
